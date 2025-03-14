@@ -5,8 +5,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Membaca dataset
-day_df = pd.read_csv('day.csv')
-hour_df = pd.read_csv('hour.csv')
+day_df = pd.read_csv('dashboard/day.csv')
+hour_df = pd.read_csv('dashboard/hour.csv')
 
 # Mapping Musim dan Situasi Cuaca
 season_mapping = {1: 'Winter', 2: 'Spring', 3: 'Summer', 4: 'Fall'}
